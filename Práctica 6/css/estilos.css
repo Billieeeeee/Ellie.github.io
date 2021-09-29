@@ -1,0 +1,70 @@
+body{
+
+ background-color: #7209B7;
+
+}
+
+ul{
+
+    text-align: right;
+    list-style: none;    
+
+}
+
+li{
+
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    size: 24px;
+    margin-right: 10px;
+    display: inline;
+    border-radius: 16px;
+
+    width: 160px;
+    padding: 15px 15px;    
+    background-color: #F72585;
+    
+}
+
+img{
+
+    width: 20%;
+    height: 30%;
+    float: left;
+    margin: 0px 0px 0px 10px;
+
+}
+
+p{
+
+    text-align: center;
+    color: white;
+
+}
+
+a:link{/*cuando se muestra nuestro link primero (no haberlo usado nunca)*/
+
+    color: #4CC9F0;
+    text-decoration: none;
+
+}
+
+a:visited{/*cuando hemos dado clic sobre ese elemento*/
+
+    color: #480CA8;
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    color: #480CA8;
+    text-decoration: underline;
+
+}
+
+a:active{
+
+    color: #D00000;
+    text-decoration: underline;
+
+}
